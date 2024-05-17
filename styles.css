@@ -1,0 +1,17 @@
+/* 
+Tag 
+class
+id 
+*/
+
+h1 {
+    color: blue;
+}
+
+.inputs {
+    border: 2px solid green;
+}
+
+#name {
+    height: 50px;
+}

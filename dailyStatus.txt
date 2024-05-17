@@ -1,0 +1,427 @@
+Day-1
+
+/**
+ * Basic syntax html
+ *  styling and its types
+ *  script internal and external
+ * How to  create a variable and function in javasript
+ * How to write single line and multi line comments
+ */
+
+==========================================================================================================
+
+Day-2
+
+/**
+ * Hoisting
+ * Different Data types
+ * objects
+ * arrays
+ * Json data and its samples 
+ * 
+ */
+
+=========================================================================================================
+
+Day-3
+
+/**
+ * installing nodejs
+ * running javascript code on server side
+ */
+
+/**
+ * comparion operators
+ * 
+ *  > greater than
+ *  < less than
+ *  >= greater than or equals to
+ *  <= less than or equals to
+ *  == equal to
+ *  === equal to with data type check
+ * 
+ */
+
+/**
+ * conditional statements
+ * 
+ * if
+ * if-else
+ * else-if ladder / nested else-if
+ * switch case
+ *
+ */
+
+========================================================================================================
+
+ Day-4
+
+ /**
+ * 
+ * condition ? if block : else block
+ */
+
+ /**
+ * logical operators
+ * 
+ * AND -- &&
+ * OR -- ||
+ * NOT -- !
+ * 
+ */
+
+ /**
+    * Falsy values in javascript
+    * 
+    * 0
+    * false
+    * ''
+    * null
+    * undefined
+    * NAN -- Not A Number
+    * 
+    */
+
+===================================================================================================
+
+Day-5
+
+/**
+ * Loops - Recurring operations
+ * 
+ * while
+ * do-while
+ * for
+ * 
+ */
+
+/**
+ * String Methods
+ * 
+ * length
+ * charAt / at
+ * slice
+ * substring
+ * toUpperCase
+ * toLowerCase
+ * concat
+ * trim
+ * repeat
+ * replace
+ * split
+ * 
+ */
+
+====================================================================================================
+
+Day-6
+
+/**
+ * Array Methods
+ * 
+ * length
+ * toString
+ * at
+ * join
+ * push
+ * pop
+ * shift
+ * unshift
+ * concat
+ * sort
+ * splice
+ * slice
+ * delete
+ * 
+ * 
+ */
+
+===================================================================================================
+
+Day-7
+
+/**
+ * Functions in Javascript - A block of code
+ * 
+ * default function
+ * paramaterized function
+ * return void/arr/string/intergar/object/ function 
+ * 
+ *  inner function
+ *  closures
+ * 
+ */
+
+=======================================================================================================
+
+Day-8
+
+/**
+*
+ * callback function
+ * Higher Order Function
+ * anonymous function
+ */
+
+/**
+ * Callbacks - Javascript
+ * ----------------------------------------------------------------
+ * A function passed as an argument / parameter to another function
+ * 
+ *
+ * Higher Order Functions - Javascript
+ * 
+ * A function that takes one or more functions as an argument or returns a function as a result
+ * 
+ */
+ 
+==============================================================================================
+
+Day-9
+ 
+// Hoisting
+
+// Synchronous ---- one by one, line by line
+// Asynchronous ---- parallel 
+
+// Top level code
+
+/**
+ * 
+ * Global Execution Context
+ * 
+ * 
+ * 
+ * |        |
+ * |        |
+ * |        |
+ * |        |
+ * |        |
+ * |        |
+ * |        |  
+ * ----------
+ * 
+ */
+
+/**
+ * Javascript ----- Synchronous single threaded language --------------------------------
+ * 
+ * 
+ * 
+ * Very Very Important Javascript Interview Concepts...
+ * 
+ * closures  ---- Inner function which has access to its outer / parent function / lexical scope
+ * callbacks ---- Function passed as an argument to another function
+ * HOF ---- A function which accepts one or more functions as parametersor return another function
+ * Anonymous functions ---- A function without function name
+ * 
+ */
+
+ /**
+ * 
+ * Array Higher Order Functions
+ * 
+ * find
+ * includes
+ * map
+ * filter
+ * reduce
+ * 
+ */
+ 
+====================================================================================================
+
+Day-10
+
+/**
+ * 
+ * Array Higher Order Functions
+ * 
+ * findIndex
+ * falt
+ * for of
+ * forEach
+ * some
+ * every
+ * 
+ */
+
+/**
+* Arrow Functions
+* default and with parameters
+*
+*/
+
+======================================================================================================
+
+Day- 11
+
+/**
+ * Object -- Javascript
+ * 
+ * assign
+ * entiries
+ * freeze
+ * create
+ * keys
+ * values
+ * hasOwnProperty
+ * 
+ */
+
+=====================================================================================================
+
+ Day - 12
+
+ /**
+ * Destructuring
+ * Spread
+ * Rest 
+ *
+ */
+
+ 
+// Destructuring objects and arrays
+// it is the process of extracting / getting values / attributes from objects and arrays
+// const/let/var {keyName: aliasName = defaultValue} = object
+
+
+// Spread Operator {...}
+// Expanding values from an object array
+// {...source}
+
+
+// Rest Operator {...}
+// collecting rest of the attributes
+// {...target}
+
+
+// ... target = rest -- collects
+// ... source = spread -- Expands
+
+// {...rest} = {...spread}
+
+=======================================================================================================
+
+ Day - 13
+
+/**
+ * Classes - Javascript
+ * Class is the blueprint of an object
+ */
+
+/**
+ * const userObj = {
+ *      name: 'abc',
+ *      degree: 'xyz'
+ * }
+ */
+
+ /**
+ * Error Handling - Javascript
+ * try {} catch() {} finally {}
+ */
+
+====================================================================================================
+
+Day - 14
+
+Introduction
+html syntax / structure
+css inline / internal / external
+javascript internal / external
+Variables
+functions
+
+====================================================================================================
+
+Day - 15
+
+/**
+ * Timer Functions - Javascript
+ * 
+ * setTimeout
+ * setInterval
+ * setImmediate
+ * 
+ */
+
+// Javascript is a synchronous single threaded language
+// Timer functions are used to perfrom asynchronous operations in javascript
+
+// setTimeout(callbackFunction, timer in miliseconds)
+
+// setInterval(callbackFunction, interval timer)
+// clearInterval(setIntervalFunction)
+
+// setImmediate(callbackFunction)
+
+====================================================================================================
+
+Day - 16
+
+/**
+ * Promises - Javascript
+ * 
+ * A special object which runs in the future
+ * a Promise is an object that will produce a single value some time in the future
+ * 
+ * states of promise
+ * 
+ * Pending
+ * Fullfilled / Resolved - Settled
+ * Rejected - Settled
+ * 
+ */
+
+ /**
+ * Promise APIs / Methods / Functions
+ * 
+ * Takes an array of promises as an input / argument / parameter
+ * 
+ * all - resolved only when all are resolved - fails even if one fails
+ * allSettled - regardless of the status, it gives status and value for all promiese
+ * race - it gives us first settled promise regardless of the status
+ * any - it gives us first resolved promise
+ * 
+ */
+ 
+====================================================================================================
+
+Day - 17
+
+// Promise Chaining 
+// Asynchronous operations in a synchronous manner
+
+// Async - Await
+// Async function always returns a promise
+// Await can only be used in async function
+// await waits till current statement gets completed
+// await also consumes the promise
+
+====================================================================================================
+
+Day - 18
+
+/**
+ * Two ways to copy anything in javascript
+ * 
+ * Deep copy
+ * shallow copy
+ * 
+ */
+
+// pass by value / call by value
+// pass by reference / call by reference
+
+/**
+ * Modules - Javascript
+ * 
+ * import - {} / without braces
+ * export - normal / default (only one for one file)
+ * 
+ */
+
+ // EVENT LOOP
+
+====================================================================================================

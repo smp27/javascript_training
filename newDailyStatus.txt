@@ -1,0 +1,12 @@
+Day - 14
+
+Introduction
+html syntax / structure
+css inline / internal / external
+javascript internal / external
+Variables
+functions
+
+====================================================================================================
+
+Day - 15
