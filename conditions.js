@@ -135,3 +135,62 @@ mulptipleConditions();
  * split
  * 
  */
+
+
+const userArr = [
+    {
+        name: 'ganesh',
+        edu: {
+            degree: 'Btech',
+            stream: 'ece'
+        },
+        addr: {
+            city: 'hyd'
+        }
+    },
+    {
+        name: 'ravi',
+        edu: {
+            degree: 'Btech',
+            stream: 'mech'
+        },
+        addr: {
+            city: 'hyd'
+        }
+    },
+    {
+        name: 'sravya',
+        edu: {
+            degree: 'Btech',
+            stream: 'cse'
+        },
+        addr: {
+            city: 'hyd'
+        }
+    },
+    {
+        name: 'manikanta',
+        edu : {
+            degree: 'Btech'
+        },
+        addr: {
+            city: 'hyd'
+        }
+    }
+]
+
+// console.log(userArr[0].name + ' : ' + userArr[0].edu.degree)
+// console.log(userArr[1].name + ' : ' + userArr[1].edu.degree)
+// console.log(userArr[2].name + ' : ' + userArr[2].edu.degree)
+// console.log(userArr[3].name + ' : ' + userArr[3].edu.degree)
+
+// Optional Chaining - ?
+
+userArr.forEach((user, index) => {
+    console.log(user.name , ' : ' , user?.edu?.stream ?? user?.edu?.degree)
+})
+
+// Nullish Coalescing - ??
+
+console.log( null ?? undefined ?? 3)
+

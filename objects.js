@@ -71,8 +71,8 @@ const userDetails = {
     name: 'sravya'
 }
 Object.freeze(userDetails)
-userDetails.name = 'ravi'
-userDetails.company = 'ibm'
+// userDetails.name = 'ravi'
+// userDetails.company = 'ibm'
 console.log('userDetails : ', userDetails)
 
 
@@ -136,3 +136,28 @@ console.log(newUserArr)
 const filteredUsers = newUserArr.filter((ele, index) => ele.isNew === false)
 
 console.log(filteredUsers)
+
+
+const arr = [1,2,3,4,5,6,7]
+
+// for-of loop - Array
+// for(let a of arr) {
+//     console.log(a)
+// }
+
+// for-in loop - Objects
+const obj = {
+    a: 1,
+    b: 2,
+    c: 3,
+    d: 4
+}
+
+const key = 'c'
+
+console.log(obj.c)  
+console.log(obj['d'])
+
+for(let prop in obj) {
+    console.log(prop , ' : ' , obj[prop])
+}
